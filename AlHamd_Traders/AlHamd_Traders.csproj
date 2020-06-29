@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0D203C7A-2D3A-45EF-B8BB-5E106A2DA5CE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AlHamd_Traders</RootNamespace>
+    <AssemblyName>AlHamd_Traders</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Add_New_Category.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_New_Category.Designer.cs">
+      <DependentUpon>Add_New_Category.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_New_Medicine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_New_Medicine.Designer.cs">
+      <DependentUpon>Add_New_Medicine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADD_NEW_USER.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADD_NEW_USER.Designer.cs">
+      <DependentUpon>ADD_NEW_USER.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Add_Role.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Add_Role.Designer.cs">
+      <DependentUpon>Add_Role.cs</DependentUpon>
+    </Compile>
+    <Compile Include="changecalculation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="changecalculation.Designer.cs">
+      <DependentUpon>changecalculation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashbord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashbord.Designer.cs">
+      <DependentUpon>Dashbord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="globals.cs" />
+    <Compile Include="Managemedicine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Managemedicine.Designer.cs">
+      <DependentUpon>Managemedicine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manage_Category.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage_Category.Designer.cs">
+      <DependentUpon>Manage_Category.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manage_Roles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage_Roles.Designer.cs">
+      <DependentUpon>Manage_Roles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manage_Users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage_Users.Designer.cs">
+      <DependentUpon>Manage_Users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="purchasereciept.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="purchasereciept.Designer.cs">
+      <DependentUpon>purchasereciept.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Remove_Category.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Remove_Category.Designer.cs">
+      <DependentUpon>Remove_Category.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Remove_Role.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Remove_Role.Designer.cs">
+      <DependentUpon>Remove_Role.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Remove_User.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Remove_User.Designer.cs">
+      <DependentUpon>Remove_User.cs</DependentUpon>
+    </Compile>
+    <Compile Include="sale_invoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="sale_invoice.Designer.cs">
+      <DependentUpon>sale_invoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Search_Medicine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Search_Medicine.Designer.cs">
+      <DependentUpon>Search_Medicine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update_Category.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update_Category.Designer.cs">
+      <DependentUpon>Update_Category.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update_Medicine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update_Medicine.Designer.cs">
+      <DependentUpon>Update_Medicine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update_Role.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update_Role.Designer.cs">
+      <DependentUpon>Update_Role.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Update_User_Data.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Update_User_Data.Designer.cs">
+      <DependentUpon>Update_User_Data.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view_product_list.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="view_product_list.Designer.cs">
+      <DependentUpon>view_product_list.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Add_New_Category.resx">
+      <DependentUpon>Add_New_Category.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_New_Medicine.resx">
+      <DependentUpon>Add_New_Medicine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADD_NEW_USER.resx">
+      <DependentUpon>ADD_NEW_USER.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Add_Role.resx">
+      <DependentUpon>Add_Role.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="changecalculation.resx">
+      <DependentUpon>changecalculation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashbord.resx">
+      <DependentUpon>Dashbord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Managemedicine.resx">
+      <DependentUpon>Managemedicine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage_Category.resx">
+      <DependentUpon>Manage_Category.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage_Roles.resx">
+      <DependentUpon>Manage_Roles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage_Users.resx">
+      <DependentUpon>Manage_Users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="purchasereciept.resx">
+      <DependentUpon>purchasereciept.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Remove_Category.resx">
+      <DependentUpon>Remove_Category.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Remove_Role.resx">
+      <DependentUpon>Remove_Role.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Remove_User.resx">
+      <DependentUpon>Remove_User.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="sale_invoice.resx">
+      <DependentUpon>sale_invoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Search_Medicine.resx">
+      <DependentUpon>Search_Medicine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_Category.resx">
+      <DependentUpon>Update_Category.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_Medicine.resx">
+      <DependentUpon>Update_Medicine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_Role.resx">
+      <DependentUpon>Update_Role.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Update_User_Data.resx">
+      <DependentUpon>Update_User_Data.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view_product_list.resx">
+      <DependentUpon>view_product_list.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

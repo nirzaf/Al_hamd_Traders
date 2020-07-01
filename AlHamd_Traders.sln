@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlHamd_Traders", "AlHamd_Traders\AlHamd_Traders.csproj", "{0D203C7A-2D3A-45EF-B8BB-5E106A2DA5CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XYZ_Inventory", "AlHamd_Traders\XYZ_Inventory.csproj", "{0D203C7A-2D3A-45EF-B8BB-5E106A2DA5CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D44A7A93-53C1-407E-A6BB-AC7FCD3F93C4}
 	EndGlobalSection
 EndGlobal

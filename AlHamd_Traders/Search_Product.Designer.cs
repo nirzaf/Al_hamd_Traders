@@ -1,6 +1,6 @@
 ﻿namespace AlHamd_Traders
 {
-    partial class Search_Medicine
+    partial class Search_Product
     {
         /// <summary>
         /// Required designer variable.

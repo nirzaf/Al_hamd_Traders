@@ -25,13 +25,13 @@ namespace AlHamd_Traders
 
         private void btnsearchmedicine_Click(object sender, EventArgs e)
         {
-            Search_Medicine searchmedicine = new Search_Medicine();
+            Search_Product searchmedicine = new Search_Product();
             searchmedicine.ShowDialog();
         }
 
         private void btnupdatemedicine_Click(object sender, EventArgs e)
         {
-            Update_Medicine updatemedicine = new Update_Medicine();
+            Update_Product updatemedicine = new Update_Product();
             updatemedicine.ShowDialog();
         }
 

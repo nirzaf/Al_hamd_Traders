@@ -72,7 +72,7 @@
             // 
             // txtstock
             // 
-            this.txtstock.Location = new System.Drawing.Point(101, 204);
+            this.txtstock.Location = new System.Drawing.Point(100, 202);
             this.txtstock.Name = "txtstock";
             this.txtstock.Size = new System.Drawing.Size(137, 20);
             this.txtstock.TabIndex = 24;
@@ -88,9 +88,9 @@
             // 
             // btnclearall
             // 
-            this.btnclearall.Location = new System.Drawing.Point(244, 354);
+            this.btnclearall.Location = new System.Drawing.Point(217, 354);
             this.btnclearall.Name = "btnclearall";
-            this.btnclearall.Size = new System.Drawing.Size(95, 77);
+            this.btnclearall.Size = new System.Drawing.Size(105, 77);
             this.btnclearall.TabIndex = 32;
             this.btnclearall.Text = "Clear All";
             this.btnclearall.UseVisualStyleBackColor = true;
@@ -98,7 +98,7 @@
             // 
             // btnaddproduct
             // 
-            this.btnaddproduct.Location = new System.Drawing.Point(31, 354);
+            this.btnaddproduct.Location = new System.Drawing.Point(25, 354);
             this.btnaddproduct.Name = "btnaddproduct";
             this.btnaddproduct.Size = new System.Drawing.Size(186, 77);
             this.btnaddproduct.TabIndex = 28;
@@ -110,7 +110,7 @@
             // 
             this.groupBox1.Controls.Add(this.rdounavailable);
             this.groupBox1.Controls.Add(this.rdoavailable);
-            this.groupBox1.Location = new System.Drawing.Point(25, 288);
+            this.groupBox1.Location = new System.Drawing.Point(19, 279);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(303, 60);
             this.groupBox1.TabIndex = 27;
@@ -142,7 +142,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(22, 249);
+            this.label5.Location = new System.Drawing.Point(16, 244);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(55, 13);
             this.label5.TabIndex = 33;
@@ -158,14 +158,14 @@
             "stationary",
             "home",
             "school"});
-            this.cbxcategory.Location = new System.Drawing.Point(101, 249);
+            this.cbxcategory.Location = new System.Drawing.Point(100, 240);
             this.cbxcategory.Name = "cbxcategory";
             this.cbxcategory.Size = new System.Drawing.Size(137, 21);
             this.cbxcategory.TabIndex = 25;
             // 
             // txtproductname
             // 
-            this.txtproductname.Location = new System.Drawing.Point(101, 107);
+            this.txtproductname.Location = new System.Drawing.Point(101, 113);
             this.txtproductname.Name = "txtproductname";
             this.txtproductname.Size = new System.Drawing.Size(137, 20);
             this.txtproductname.TabIndex = 20;
@@ -173,7 +173,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(16, 107);
+            this.label4.Location = new System.Drawing.Point(16, 116);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(75, 13);
             this.label4.TabIndex = 29;
@@ -189,7 +189,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(16, 142);
+            this.label3.Location = new System.Drawing.Point(16, 144);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(79, 13);
             this.label3.TabIndex = 26;
@@ -197,7 +197,7 @@
             // 
             // txtsaleprice
             // 
-            this.txtsaleprice.Location = new System.Drawing.Point(101, 168);
+            this.txtsaleprice.Location = new System.Drawing.Point(101, 171);
             this.txtsaleprice.Name = "txtsaleprice";
             this.txtsaleprice.Size = new System.Drawing.Size(137, 20);
             this.txtsaleprice.TabIndex = 23;
@@ -205,7 +205,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(16, 168);
+            this.label2.Location = new System.Drawing.Point(16, 173);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(55, 13);
             this.label2.TabIndex = 22;
@@ -221,7 +221,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(16, 81);
+            this.label8.Location = new System.Drawing.Point(16, 84);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(47, 13);
             this.label8.TabIndex = 19;
@@ -266,7 +266,7 @@
             this.Controls.Add(this.dgvmedicine);
             this.Controls.Add(this.label1);
             this.Name = "Add_New_Medicine";
-            this.Text = "Add_New_Medicine";
+            this.Text = "Add_New_Product";
             this.Load += new System.EventHandler(this.Add_New_Medicine_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

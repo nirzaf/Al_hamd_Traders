@@ -13,9 +13,9 @@ using System.Data.SqlClient;
 
 namespace AlHamd_Traders
 {
-    public partial class Search_Medicine : Form
+    public partial class Search_Product : Form
     {
-        public Search_Medicine()
+        public Search_Product()
         {
             InitializeComponent();
         }

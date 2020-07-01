@@ -19,7 +19,7 @@ namespace AlHamd_Traders
 
         private void msmanagemedicine_Click(object sender, EventArgs e)
         {
-            Managemedicine managemedicine = new Managemedicine();
+            Manage_Medicine managemedicine = new Manage_Medicine();
             managemedicine.ShowDialog();
         }
 
@@ -43,19 +43,19 @@ namespace AlHamd_Traders
 
         private void tsbtnsave_Click(object sender, EventArgs e)
         {
-            sale_invoice saleinvoice = new sale_invoice();
+            Sale_Invoice saleinvoice = new Sale_Invoice();
             saleinvoice.ShowDialog();
         }
 
         private void Dashbord_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("WELCOME : " + globals.username);
-            lblglobalsetdata.Text = "username : " + globals.username;
+            MessageBox.Show("WELCOME : " + Globals.username);
+            lblglobalsetdata.Text = "username : " + Globals.username;
         }
 
         private void tsbtnadduser_Click(object sender, EventArgs e)
         {
-            ADD_NEW_USER addnewuser = new ADD_NEW_USER();
+            Add_New_User addnewuser = new Add_New_User();
             addnewuser.ShowDialog();
         }
 

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AlHamd_Traders
 {
-    public partial class Managemedicine : Form
+    public partial class Manage_Medicine : Form
     {
-        public Managemedicine()
+        public Manage_Medicine()
         {
             InitializeComponent();
         }
@@ -37,7 +37,7 @@ namespace AlHamd_Traders
 
         private void btnviewproductlist_Click(object sender, EventArgs e)
         {
-            view_product_list vpl = new view_product_list();
+            View_Product_List vpl = new View_Product_List();
             vpl.ShowDialog();
         }
     }

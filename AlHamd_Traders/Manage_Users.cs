@@ -21,7 +21,7 @@ namespace AlHamd_Traders
 
         private void btnaddnew_Click(object sender, EventArgs e)
         {
-            ADD_NEW_USER addnewuser = new ADD_NEW_USER();
+            Add_New_User addnewuser = new Add_New_User();
             addnewuser.ShowDialog();
         }
 

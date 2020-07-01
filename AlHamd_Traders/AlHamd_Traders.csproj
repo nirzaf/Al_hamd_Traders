@@ -59,11 +59,11 @@
     <Compile Include="Add_New_Medicine.Designer.cs">
       <DependentUpon>Add_New_Medicine.cs</DependentUpon>
     </Compile>
-    <Compile Include="ADD_NEW_USER.cs">
+    <Compile Include="Add_New_User.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ADD_NEW_USER.Designer.cs">
-      <DependentUpon>ADD_NEW_USER.cs</DependentUpon>
+    <Compile Include="Add_New_User.Designer.cs">
+      <DependentUpon>Add_New_User.cs</DependentUpon>
     </Compile>
     <Compile Include="Add_Role.cs">
       <SubType>Form</SubType>
@@ -71,11 +71,11 @@
     <Compile Include="Add_Role.Designer.cs">
       <DependentUpon>Add_Role.cs</DependentUpon>
     </Compile>
-    <Compile Include="changecalculation.cs">
+    <Compile Include="Change_Calculation.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="changecalculation.Designer.cs">
-      <DependentUpon>changecalculation.cs</DependentUpon>
+    <Compile Include="Change_Calculation.Designer.cs">
+      <DependentUpon>Change_Calculation.cs</DependentUpon>
     </Compile>
     <Compile Include="Dashbord.cs">
       <SubType>Form</SubType>
@@ -83,18 +83,18 @@
     <Compile Include="Dashbord.Designer.cs">
       <DependentUpon>Dashbord.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
     </Compile>
-    <Compile Include="globals.cs" />
-    <Compile Include="Managemedicine.cs">
+    <Compile Include="Globals.cs" />
+    <Compile Include="Manage_Medicine.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Managemedicine.Designer.cs">
-      <DependentUpon>Managemedicine.cs</DependentUpon>
+    <Compile Include="Manage_Medicine.Designer.cs">
+      <DependentUpon>Manage_Medicine.cs</DependentUpon>
     </Compile>
     <Compile Include="Manage_Category.cs">
       <SubType>Form</SubType>
@@ -116,11 +116,11 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="purchasereciept.cs">
+    <Compile Include="Purchase_Reciept.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="purchasereciept.Designer.cs">
-      <DependentUpon>purchasereciept.cs</DependentUpon>
+    <Compile Include="Purchase_Reciept.Designer.cs">
+      <DependentUpon>Purchase_Reciept.cs</DependentUpon>
     </Compile>
     <Compile Include="Remove_Category.cs">
       <SubType>Form</SubType>
@@ -140,11 +140,11 @@
     <Compile Include="Remove_User.Designer.cs">
       <DependentUpon>Remove_User.cs</DependentUpon>
     </Compile>
-    <Compile Include="sale_invoice.cs">
+    <Compile Include="Sale_Invoice.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="sale_invoice.Designer.cs">
-      <DependentUpon>sale_invoice.cs</DependentUpon>
+    <Compile Include="Sale_Invoice.Designer.cs">
+      <DependentUpon>Sale_Invoice.cs</DependentUpon>
     </Compile>
     <Compile Include="Search_Medicine.cs">
       <SubType>Form</SubType>
@@ -176,11 +176,11 @@
     <Compile Include="Update_User_Data.Designer.cs">
       <DependentUpon>Update_User_Data.cs</DependentUpon>
     </Compile>
-    <Compile Include="view_product_list.cs">
+    <Compile Include="View_Product_List.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="view_product_list.Designer.cs">
-      <DependentUpon>view_product_list.cs</DependentUpon>
+    <Compile Include="View_Product_List.Designer.cs">
+      <DependentUpon>View_Product_List.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Add_New_Category.resx">
       <DependentUpon>Add_New_Category.cs</DependentUpon>
@@ -188,23 +188,23 @@
     <EmbeddedResource Include="Add_New_Medicine.resx">
       <DependentUpon>Add_New_Medicine.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ADD_NEW_USER.resx">
-      <DependentUpon>ADD_NEW_USER.cs</DependentUpon>
+    <EmbeddedResource Include="Add_New_User.resx">
+      <DependentUpon>Add_New_User.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Add_Role.resx">
       <DependentUpon>Add_Role.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="changecalculation.resx">
-      <DependentUpon>changecalculation.cs</DependentUpon>
+    <EmbeddedResource Include="Change_Calculation.resx">
+      <DependentUpon>Change_Calculation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashbord.resx">
       <DependentUpon>Dashbord.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Managemedicine.resx">
-      <DependentUpon>Managemedicine.cs</DependentUpon>
+    <EmbeddedResource Include="Manage_Medicine.resx">
+      <DependentUpon>Manage_Medicine.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Manage_Category.resx">
       <DependentUpon>Manage_Category.cs</DependentUpon>
@@ -224,8 +224,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="purchasereciept.resx">
-      <DependentUpon>purchasereciept.cs</DependentUpon>
+    <EmbeddedResource Include="Purchase_Reciept.resx">
+      <DependentUpon>Purchase_Reciept.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Remove_Category.resx">
       <DependentUpon>Remove_Category.cs</DependentUpon>
@@ -236,8 +236,8 @@
     <EmbeddedResource Include="Remove_User.resx">
       <DependentUpon>Remove_User.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="sale_invoice.resx">
-      <DependentUpon>sale_invoice.cs</DependentUpon>
+    <EmbeddedResource Include="Sale_Invoice.resx">
+      <DependentUpon>Sale_Invoice.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Search_Medicine.resx">
       <DependentUpon>Search_Medicine.cs</DependentUpon>
@@ -254,8 +254,8 @@
     <EmbeddedResource Include="Update_User_Data.resx">
       <DependentUpon>Update_User_Data.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="view_product_list.resx">
-      <DependentUpon>view_product_list.cs</DependentUpon>
+    <EmbeddedResource Include="View_Product_List.resx">
+      <DependentUpon>View_Product_List.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

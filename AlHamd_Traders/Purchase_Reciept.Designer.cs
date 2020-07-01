@@ -1,6 +1,6 @@
 ﻿namespace AlHamd_Traders
 {
-    partial class purchasereciept
+    partial class Purchase_Reciept
     {
         /// <summary>
         /// Required designer variable.

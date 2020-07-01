@@ -1,6 +1,6 @@
 ﻿namespace AlHamd_Traders
 {
-    partial class sale_invoice
+    partial class Sale_Invoice
     {
         /// <summary>
         /// Required designer variable.

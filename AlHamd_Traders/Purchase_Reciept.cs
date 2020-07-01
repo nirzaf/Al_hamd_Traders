@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AlHamd_Traders
 {
-    public partial class purchasereciept : Form
+    public partial class Purchase_Reciept : Form
     {
-        public purchasereciept()
+        public Purchase_Reciept()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace AlHamd_Traders
 {
-    partial class view_product_list
+    partial class View_Product_List
     {
         /// <summary>
         /// Required designer variable.

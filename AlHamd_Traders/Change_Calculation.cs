@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace AlHamd_Traders
 {
-    public partial class changecalculation : Form
+    public partial class Change_Calculation : Form
     {
         int totalbill;
-        public changecalculation(int totalbill)
+        public Change_Calculation(int totalbill)
         {
             InitializeComponent();
             this.totalbill = totalbill;

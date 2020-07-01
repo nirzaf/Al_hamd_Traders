@@ -12,9 +12,9 @@ using System.Configuration;
 
 namespace AlHamd_Traders
 {
-    public partial class ADD_NEW_USER : Form
+    public partial class Add_New_User : Form
     {
-        public ADD_NEW_USER()
+        public Add_New_User()
         {
             InitializeComponent();
         }

@@ -12,9 +12,9 @@ using System.Configuration;
 
 namespace AlHamd_Traders
 {
-    public partial class Form1 : Form
+    public partial class Main : Form
     {
-        public Form1()
+        public Main()
         {
             InitializeComponent();
         }
@@ -38,8 +38,8 @@ namespace AlHamd_Traders
             con.Close();
             if(dt.Rows.Count>0)
             {
-                globals.username =dt.Rows[0]["username"].ToString();
-                globals.userid = Convert.ToInt32(dt.Rows[0]["user_id"]);
+                Globals.username =dt.Rows[0]["username"].ToString();
+                Globals.userid = Convert.ToInt32(dt.Rows[0]["user_id"]);
                 this.Hide();
                 Dashbord dashbord = new Dashbord();
                 dashbord.ShowDialog();

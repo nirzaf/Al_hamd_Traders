@@ -1,6 +1,6 @@
 ﻿namespace AlHamd_Traders
 {
-    partial class ADD_NEW_USER
+    partial class Add_New_User
     {
         /// <summary>
         /// Required designer variable.

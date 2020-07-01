@@ -1,6 +1,6 @@
 ﻿namespace AlHamd_Traders
 {
-    partial class changecalculation
+    partial class Change_Calculation
     {
         /// <summary>
         /// Required designer variable.

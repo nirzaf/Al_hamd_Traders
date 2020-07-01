@@ -13,9 +13,9 @@ using System.Data.SqlClient;
 
 namespace AlHamd_Traders
 {
-    public partial class view_product_list : Form
+    public partial class View_Product_List : Form
     {
-        public view_product_list()
+        public View_Product_List()
         {
             InitializeComponent();
         }

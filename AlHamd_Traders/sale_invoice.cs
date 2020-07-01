@@ -13,16 +13,16 @@ using System.Text.RegularExpressions;
 
 namespace AlHamd_Traders
 {
-    public partial class sale_invoice : Form
+    public partial class Sale_Invoice : Form
     {
-        public sale_invoice()
+        public Sale_Invoice()
         {
             InitializeComponent();
         }
 
         private void sale_invoice_Load(object sender, EventArgs e)
         {
-            txtusername.Text = globals.username.ToString();
+            txtusername.Text = Globals.username.ToString();
             txtdatetime.Text = DateTime.Now.ToString("dd-mmmm-yyyy hh:mm:ss tt");
             txtsearch.Focus();
         }
@@ -225,11 +225,11 @@ namespace AlHamd_Traders
             {
                 return;
             }
-            int userid = globals.userid;
+            int userid = Globals.userid;
             DateTime invoicedate = DateTime.Now;
             int totalamount = Convert.ToInt32(txttotal.Text);
 
-            changecalculation changecalculation = new changecalculation(totalamount);
+            Change_Calculation changecalculation = new Change_Calculation(totalamount);
             DialogResult dr = changecalculation.ShowDialog();
             if (dr == DialogResult.Cancel)
             {
@@ -279,7 +279,7 @@ namespace AlHamd_Traders
                 txtdatetime.Text = DateTime.Now.ToString();
                 dgvsalesinvoice.Rows.Clear();
                 MessageBox.Show("invoice saved succesfully");
-                purchasereciept open = new purchasereciept();
+                Purchase_Reciept open = new Purchase_Reciept();
                 open.ShowDialog();
             }
         }

@@ -1,6 +1,6 @@
 ﻿namespace AlHamd_Traders
 {
-    partial class Managemedicine
+    partial class Manage_Medicine
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Managemedicine));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Manage_Medicine));
             this.btnaddnewmedicine = new System.Windows.Forms.Button();
             this.btnviewproductlist = new System.Windows.Forms.Button();
             this.btnsearchmedicine = new System.Windows.Forms.Button();
